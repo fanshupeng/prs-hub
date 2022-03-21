@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.prs.hub.practice.mapper.RunnerDetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.prs.hub.practice.entity.RunnerDetail">
+        <id column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="name" property="name" />
+        <result column="set_parameter" property="setParameter" />
+        <result column="upload_path" property="uploadPath" />
+        <result column="download_path" property="downloadPath" />
+        <result column="status" property="status" />
+        <result column="created_user" property="createdUser" />
+        <result column="created_date" property="createdDate" />
+        <result column="modified_user" property="modifiedUser" />
+        <result column="modified_date" property="modifiedDate" />
+        <result column="is_delete" property="isDelete" />
+    </resultMap>
+
+</mapper>
